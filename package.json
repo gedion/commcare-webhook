@@ -1,0 +1,16 @@
+{
+  "name": "commcare-webhook",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Gedion Woldeselassie <gwy321@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+     "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "mongoose": "^5.9.5"
+  }
+}
